@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	@@include('./include/head.html')
+</head>
+<body class="front_body">
+	<div class="page_wrap member"><!-- 메뉴 디자인 식별 member -->
+		@@include('./include/header.html')
+		<!-- midsection -->
+		<section class="midsection_z">
+			<div class="mstit_w">
+				<h2 class="mstit">개인 정보 입력 (*는 필수)</h2>
+				<p class="mstit_sub">입력하신 개인정보는 회원님의 동의없이 공개되지 않으며, 개인정보취급방침에 따라 보호되고 있습니다.</p>
+			</div>
+			<div class="msbox_w">
+				<div class="msbox">
+					<div class="msform_w">
+						<div class="msform_iw sztype2 type3">
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">이름</span>
+								</div>
+								<div class="msform_td msftd">
+									<input type="text" class="fint resitem" data-pcw="364" style="width:364px;" />
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">생년월일</span>
+								</div>
+								<div class="msform_td msftd">
+									<ul class="fitem_list type2 resitem" data-pcw="364" style="width:364px;">
+										<li><select class="fsel"><option>1990년</option><option>1990년</option></select></li>
+										<li><select class="fsel"><option>11월</option></select></li>
+										<li><select class="fsel"><option>22일</option></select></li>
+									</ul>
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low type2">
+								<div class="msform_td msfth">
+									<span class="msflab imp">성별</span>
+								</div>
+								<div class="msform_td msftd">
+									<ul class="rdchkitem_list">
+										<li>
+											<div class="rdchkitem">
+												<input type="radio" class="rdchk" name="gender" id="gender01" checked>
+												<label for="gender01" class="rdchk_lab">남</label>
+											</div>
+										</li>
+										<li>
+											<div class="rdchkitem">
+												<input type="radio" class="rdchk" name="gender" id="gender02">
+												<label for="gender02" class="rdchk_lab">여</label>
+											</div>
+										</li>
+										<li>
+											<div class="rdchkitem">
+												<input type="radio" class="rdchk" name="gender" id="gender03">
+												<label for="gender03" class="rdchk_lab">기타</label>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">법정대리인 이름</span>
+								</div>
+								<div class="msform_td msftd">
+									<input type="text" class="fint resitem" data-pcw="364" style="width:364px;" />
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">법정대리인 <br>생년월일</span>
+								</div>
+								<div class="msform_td msftd">
+									<ul class="fitem_list type2 resitem" data-pcw="364" style="width:364px;">
+										<li><select class="fsel"><option>1990년</option><option>1990년</option></select></li>
+										<li><select class="fsel"><option>11월</option></select></li>
+										<li><select class="fsel"><option>22일</option></select></li>
+									</ul>
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">아이디</span>
+								</div>
+								<div class="msform_td msftd">
+									<ul class="msfresitem_list">
+										<li>
+											<input type="text" class="fint" />
+											<div class="msf_intment">6~12자의 영문 소문자/숫자, 한글입력불가</div>
+										</li>
+										<li class="has_btn"><a href="#" class="btn_msfin">아이디 중복체크</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">비밀번호</span>
+								</div>
+								<div class="msform_td msftd">
+									<input type="password" class="fint resitem" data-pcw="364" style="width:364px;" />
+									<div class="msf_intment">8~12자의 영문 대소문자/숫자/특수문자, 한글입력불가</div>
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">비밀번호 확인</span>
+								</div>
+								<div class="msform_td msftd">
+									<input type="password" class="fint resitem" data-pcw="364" style="width:364px;" />
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">휴대폰 번호</span>
+								</div>
+								<div class="msform_td msftd">
+									<ul class="msfresitem_list">
+										<li>
+											<ul class="fitem_list resitem" style="width:364px" data-pcw="364">
+												<li class="flong_wid"><select class="fsel"><option>82</option><option>0332</option></select></li>
+												<li class="else_li"><span class="fit_else"></span></li>
+												<li><input type="text" class="fint resitem" value="010"></li>
+												<li class="else_li"><span class="fit_else">-</span></li>
+												<li><input type="text" class="fint resitem" value="1111"></li>
+												<li class="else_li"><span class="fit_else">-</span></li>
+												<li><input type="text" class="fint resitem" value="1111"></li>
+											</ul>
+										</li>
+										<li class="has_btn"><a href="#" class="btn_msfin">인증번호 받기</a></li>
+									</ul>
+									<div class="msfsec_w"><input type="text" class="fint resitem" placeholder="인증번호 6자리 입력" data-pcw="364" style="width:364px;" /></div>
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">이메일</span>
+								</div>
+								<div class="msform_td msftd">
+									<input type="text" class="fint resitem" data-pcw="364" style="width:364px;" />
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">주소</span>
+								</div>
+								<div class="msform_td msftd">
+									<input type="text" class="fint resitem" data-pcw="364" style="width:364px;" />
+									<div class="msf_intment">동이하는 생략</div>
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">직업</span>
+								</div>
+								<div class="msform_td msftd">
+									<div class="fitem_list_w">
+										<ul class="fitem_list type2 resitem" data-pcw="364" style="width:364px;">
+											<li><select class="fsel"><option>1차 분류</option></select></li>
+											<li><select class="fsel"><option>2차 분류</option></select></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low type2">
+								<div class="msform_td msfth">
+									<span class="msflab imp">문자수신여부</span>
+								</div>
+								<div class="msform_td msftd">
+									<div class="rdchkitem_list_w">
+										<ul class="rdchkitem_list">
+											<li>
+												<div class="rdchkitem">
+													<input type="radio" class="rdchk" name="message" id="message01" checked>
+													<label for="message01" class="rdchk_lab">예</label>
+												</div>
+											</li>
+											<li>
+												<div class="rdchkitem">
+													<input type="radio" class="rdchk" name="message" id="message02">
+													<label for="message02" class="rdchk_lab">아니오</label>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- // msform_low -->
+						</div>
+						<div class="btn_mscsm_only_w">
+							<a href="#" class="btn_mscsm_only type2"><span class="btn_mscsm_only_in">확인</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- // midsection -->
+		<script>DQ.mobileTotalRock("#pht01","#pht01_01");</script>
+		@@include('./include/footer.html')
+	</div>
+</body>
+</html>

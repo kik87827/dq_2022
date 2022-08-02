@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="./css/reset.css" rel="stylesheet">
+	<link href="./css/layout.css" rel="stylesheet">
+	<link href="./css/swiper.min.css" rel="stylesheet">
+	<link href="./css/contents.css" rel="stylesheet">
+	<script src="./js/jquery-1.12.4.min.js"></script>
+	<script src="./js/hoverIntent.js"></script>
+	<script src="./js/fontfaceonload.js"></script>
+	<script src="./js/swiper.min.js"></script>
+	<script src="./js/iscroll.js"></script>
+	<script src="./js/front.js"></script>
+	<title></title>
+</head>
+<body class="front_body">
+	<div class="page_wrap mypage"><!-- 메뉴 디자인 식별 mypage -->
+		<!-- header -->
+		<header class="phead_z">
+			<div class="phead_in">
+				<a href="javascript:;" class="btn_phtotal"><span class="phtotal_in"><span class="hdtext">전체메뉴</span></span></a>
+				<h1 class="top_headlogo"><a href="#" class="top_headlogo_link"><span class="hdtext">DQ</span></a></h1>
+				<div class="phgm_list_w">
+					<ul class="phgm_list">
+						<li>
+							<div class="phgm_item">
+								<a href="#" class="phgm"><span class="phhm_in">DQ</span></a>
+								<div class="phtm_list_w">
+									<ul class="phtm_list">
+										<li><a href="#" class="phtm">DQ 소개</a></li>
+										<li><a href="#" class="phtm">DQ 검증</a></li>
+										<li><a href="#" class="phtm">DQ 결과</a></li>
+										<li><a href="#" class="phtm">자격증</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="phgm_item">
+								<a href="#" class="phgm"><span class="phhm_in">DQ 아카데미</span></a>
+								<div class="phtm_list_w">
+									<ul class="phtm_list">
+										<li><a href="#" class="phtm">영상</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="phgm_item">
+								<a href="#" class="phgm"><span class="phhm_in">고객지원</span></a>
+								<div class="phtm_list_w">
+									<ul class="phtm_list">
+										<li><a href="#" class="phtm">공지사항</a></li>
+										<li><a href="#" class="phtm">자주하는 질문</a></li>
+										<li><a href="#" class="phtm">1:1 문의하기</a></li>
+										<li><a href="#" class="phtm">단체계정 신청</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="phutil_list_w">
+					<ul class="phutil_list">
+						<li>
+							<div class="phgm_item">
+								<a href="#" class="phgm"><span class="phhm_in">dqid12345</span></a>
+								<div class="phtm_list_w">
+									<ul class="phtm_list">
+										<li><a href="#" class="phtm">정보 수정</a></li>
+										<li><a href="#" class="phtm">DQ 내역 및 결과</a></li>
+										<li><a href="#" class="phtm">추천 강좌</a></li>
+										<li><a href="#" class="phtm">자격증</a></li>
+										<li><a href="#" class="phtm">회원 탈퇴</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="phlang_w">
+								<a href="#" class="phlang_target"><span class="phlang_target_in">한국어</span></a>
+								<div class="phlang_list_w">
+									<ul class="phlang_list">
+										<li><a href="#" class="phlang_opt">English</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- phtotal_w -->
+			<div class="phtotal_z">
+				<div class="phtotal_bg"></div>
+				<div class="phtotal_w">
+					<div class="phtotal_isc">
+						<div class="pht_toplow">
+							<div class="phtop_logo_w"><img src="./images/total_logo.png" alt="DQ"></div>
+							<div class="phtop_spec_w">DQ에 오신것을 환영합니다!</div>
+						</div>
+						<div class="pht_gmlow">
+							<ul class="phtotal_list">
+								<li id="pht01">
+									<a href="#" class="phtotal_one"><span class="phone_in">dq12345</span></a>
+									<div class="phtwo_list_w">
+										<ul class="phtwo_list">
+											<li id="pht01_01"><a href="#" class="phtwo"><span class="phtwo_in">정보수정</span></a></li>
+											<li id="pht01_02"><a href="#" class="phtwo"><span class="phtwo_in">DQ 내역 및 결과</span></a></li>
+											<li id="pht01_03"><a href="#" class="phtwo"><span class="phtwo_in">추천 강좌</span></a></li>
+											<li id="pht01_03"><a href="#" class="phtwo"><span class="phtwo_in">자격증</span></a></li>
+											<li id="pht01_03"><a href="#" class="phtwo"><span class="phtwo_in">회원 탈퇴</span></a></li>
+										</ul>
+									</div>
+								</li>
+								<li id="pht02">
+									<a href="#" class="phtotal_one"><span class="phone_in">DQ</span></a>
+									<div class="phtwo_list_w">
+										<ul class="phtwo_list">
+											<li id="pht02_01"><a href="#" class="phtwo"><span class="phtwo_in">DQ 소개</span></a></li>
+											<li id="pht02_02"><a href="#" class="phtwo"><span class="phtwo_in">DQ 검증</span></a></li>
+											<li id="pht02_03"><a href="#" class="phtwo"><span class="phtwo_in">DQ 결과</span></a></li>
+											<li id="pht02_04"><a href="#" class="phtwo"><span class="phtwo_in">자격증</span></a></li>
+										</ul>
+									</div>
+								</li>
+								<li id="pht03">
+									<a href="#" class="phtotal_one"><span class="phone_in">DQ 아카데미</span></a>
+									<div class="phtwo_list_w">
+										<ul class="phtwo_list">
+											<li id="pht03_01"><a href="#" class="phtwo"><span class="phtwo_in">영상</span></a></li>
+										</ul>
+									</div>
+								</li>
+								<li id="pht04">
+									<a href="#" class="phtotal_one"><span class="phone_in">고객지원</span></a>
+									<div class="phtwo_list_w">
+										<ul class="phtwo_list">
+											<li id="pht04_01"><a href="#" class="phtwo"><span class="phtwo_in">공지사항</span></a></li>
+											<li id="pht04_02"><a href="#" class="phtwo"><span class="phtwo_in">자주하는 질문</span></a></li>
+											<li id="pht04_03"><a href="#" class="phtwo"><span class="phtwo_in">1:1 문의하기</span></a></li>
+											<li id="pht04_04"><a href="#" class="phtwo"><span class="phtwo_in">단체계정 신청</span></a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- // phtotal_w -->
+		</header>
+		<!-- // header -->
+		<!-- midsection -->
+		<section class="midsection_z">
+			<div class="mstit_w">
+				<h2 class="mstit">마이페이지</h2>
+				<p class="mstit_sub">마이페이지에서 정보 수정, DQ 검증 및 내역, 추천 강좌, 자격증 등의 정보를 보실 수 있습니다.</p>
+			</div>
+			<div class="msboth_tb_w">
+				<div class="msboth_tb">
+					<div class="msboth_td msb01">
+						<ul class="msmenu_list">
+							<li><a href="javascript:;" class="msmenu"><span class="msmenu_in">정보 수정</span></a></li>
+							<li><a href="javascript:;" class="msmenu"><span class="msmenu_in">DQ 검증 내역 및 결과</span></a></li>
+							<li>
+								<a href="javascript:;" class="msmenu"><span class="msmenu_in">추천 강좌</span></a>
+								<ul class="msmenutwo_list">
+									<li><a href="javascript:;" class="msmenutwo"><span class="msmenutwo_in">추천 강좌</span></a></li>
+									<li><a href="javascript:;" class="msmenutwo"><span class="msmenutwo_in">재생 목록</span></a></li>
+								</ul>
+							</li>
+							<li class="active"><a href="javascript:;" class="msmenu"><span class="msmenu_in">자격증</span></a></li>
+							<li><a href="javascript:;" class="msmenu"><span class="msmenu_in">회원 탈퇴</span></a></li>
+						</ul>
+						<!-- mobile -->
+						<div class="mbmsmenu_list_w">
+							<ul class="mbmsmenu_list">
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">정보 수정</span></a></li>
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">DQ 검증 내역 및 결과</span></a></li>
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">추천 강좌</span></a></li>
+								<li class="active"><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">자격증</span></a></li>
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">회원 탈퇴</span></a></li>
+							</ul>
+						</div>
+						<!-- // mobile -->
+					</div>
+					<div class="msboth_td msb02">
+						<div class="msbin_tit_w"><h3 class="msbin_tit">자격증</h3></div>
+						<div class="msbin_cont">
+							<p class="msbin_cment">자격증 내역</p>
+							<!-- -->
+							<div class="pcmskin_w mlicense_w">
+								<!-- pcskin -->
+								<div class="pcskin">
+									<div class="listdata_tb_w">
+										<table class="listdata_tb">
+											<colgroup>
+												<col style="width:12%" />
+												<col style="width:15%" />
+												<col />
+												<col style="width:30%" />
+												<col style="width:15%" />
+											</colgroup>
+											<thead>
+												<tr>
+													<th>차시</th>
+													<th>자격증 종류</th>
+													<th>자격증 유효기간</th>
+													<th>비고</th>
+													<th>보기/출력</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td><div class="ldata">1</div></td>
+													<td><div class="ldata">2급</div></td>
+													<td><div class="ldata">2020.03.11~2021.03.10</div></td>
+													<td><div class="ldata">텍스트</div></td>
+													<td class="type2">
+														<div class="btn_linsm_w">
+															<a href="#" class="btn_linsm">보기</a>
+															<a href="#" class="btn_linsm">출력</a>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td><div class="ldata">2</div></td>
+													<td><div class="ldata">1급</div></td>
+													<td><div class="ldata">2020.03.11~2021.03.10</div></td>
+													<td><div class="ldata">텍스트</div></td>
+													<td class="type2">
+														<div class="btn_linsm_w">
+															<a href="#" class="btn_linsm">보기</a>
+															<a href="#" class="btn_linsm">출력</a>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td><div class="ldata">3</div></td>
+													<td><div class="ldata">자격증 종류</div></td>
+													<td><div class="ldata">자격증 유효기간</div></td>
+													<td><div class="ldata">텍스트</div></td>
+													<td class="type2">
+														<div class="btn_linsm_w">
+															<a href="#" class="btn_linsm">보기</a>
+															<a href="#" class="btn_linsm">출력</a>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="5" class="nodata_td"><div class="nodata">데이터가 없습니다.</div></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<!-- // pcskin -->
+								<!-- mskin -->
+								<div class="mskin">
+									<div class="listdata_mtb_w">
+										<table class="listdata_mtb">
+											<thead>
+												<tr>
+													<th class="has_wsptext"><div class="wsptext">차시</div></th>
+													<th class="has_wsptext"><div class="wsptext">자격증 종류<br>비고</div></th>
+													<th><div class="wspnum">자격증 유효기간<br>보기/출력</div></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>
+														<div class="lmtdata_w">
+															<div class="lmtdata">1</div>
+														</div>
+													</td>
+													<td class="multi_td">
+														<div class="lmtdata_w">
+															<div class="lmtdata">2급</div>
+															<div class="lmtdata">비고내용</div>
+														</div>
+													</td>
+													<td class="multi_td">
+														<div class="lmtdata_w type2">
+															<div class="lmtdata">2020.03.01~2021.03.10</div>
+															<div class="lmtdata">
+																<div class="btn_lmtin_tb">
+																	<a href="#" class="btn_lmtin">보기</a>
+																	<a href="#" class="btn_lmtin">출력</a>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="lmtdata_w">
+															<div class="lmtdata">2</div>
+														</div>
+													</td>
+													<td class="multi_td">
+														<div class="lmtdata_w">
+															<div class="lmtdata">1급</div>
+															<div class="lmtdata">비고내용</div>
+														</div>
+													</td>
+													<td class="multi_td">
+														<div class="lmtdata_w type2">
+															<div class="lmtdata">2020.03.01~2021.03.10</div>
+															<div class="lmtdata">
+																<div class="btn_lmtin_tb">
+																	<a href="#" class="btn_lmtin">보기</a>
+																	<a href="#" class="btn_lmtin">출력</a>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="lmtdata_w">
+															<div class="lmtdata">3</div>
+														</div>
+													</td>
+													<td class="multi_td">
+														<div class="lmtdata_w">
+															<div class="lmtdata">자격증 종류</div>
+															<div class="lmtdata"></div>
+														</div>
+													</td>
+													<td class="multi_td">
+														<div class="lmtdata_w type2">
+															<div class="lmtdata">자격증 유효기간</div>
+															<div class="lmtdata">
+																<div class="btn_lmtin_tb">
+																	<a href="#" class="btn_lmtin">보기</a>
+																	<a href="#" class="btn_lmtin">출력</a>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="3" class="nodata_td"><div class="nodata">데이터가 없습니다.</div></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<!-- // mskin -->
+							</div>
+							<!-- // -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- // midsection -->
+		<script>
+			DQ.horMenuIscInit();
+		</script>
+		<!-- footer -->
+		<footer class="pfoot_z">
+			<div class="pfoot_in">
+				<span class="pfoot_logo"><span class="hdtext">DQ</span></span>
+				<ul class="pbotm_list">
+					<li><div class="pbotm pbotm01">[10405]경기도 일산동구 정발산동818</div></li>
+					<li><a href="tel:0220623001" class="pbotm pbotm02">TEL (02)2062-3001</a></li>
+					<li><a href="mailto:cdl@cdledu.rog" class="pbotm pbotm03">EMAIL cdl@cdledu.rog</a></li>
+				</ul>
+			</div>
+		</footer>
+		<!-- // footer -->
+	</div>
+</body>
+</html>

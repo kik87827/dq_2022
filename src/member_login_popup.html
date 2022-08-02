@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	@@include('./include/head.html')
+	<title></title>
+</head>
+<body class="front_body">
+	<div class="page_wrap">
+		<div class="guide_btn_w">
+			<a href="#" class="guide_btn" onclick="DQ.dimLayerShow({ 'target' : '#dlayer01' });">레이어팝업 호출</a>
+		</div>
+	</div>
+	<script>
+		DQ.dimLayerShow({ 'target' : '#dlayer01' });
+		$(function(){
+			// 전달용 스크립트
+			
+			// 휴대전화로 인증 탭 / 이메일로 인증 탭
+			$(".mlogpop_w .rdchkitem_mchkp .rdchk").on("click",function(){
+				var $this = $(this),
+					$t_mbtab = $($this.attr("data-mbtab")),
+					$t_box = $this.parents(".mchkbox"),
+					$t_box_w = $t_box.parents(".mchkbox_w");
+				if($this.prop("checked")){
+					if($t_mbtab.length){
+						$t_mbtab.trigger("click");
+					}
+					$t_box_w.children(".mchkbox").removeClass("checked");
+					$t_box.addClass("checked");
+				}
+			});
+			$(".mlogpop_w .mordmtab").on("click",function(){
+				var $this = $(this),
+					$t_target = $($this.attr("data-pcchkbox")),
+					$t_ptop = $this.parents(".mlogpop_w");
+				if($this.prop("checked")){
+					$t_ptop.find(".mchkbox").removeClass("checked");
+					$t_ptop.find($this.attr("data-pcchkbox")).addClass("checked");
+				}
+			});
+		});
+	</script>
+	<!-- dlayer_z -->
+	<div class="dlayer_z" id="dlayer01">
+		<div class="dlayer_tb">
+			<div class="dlayer_td">
+				<!-- dlayer_box -->
+				<div class="dlayer_box sztype2">
+					<!-- mordmcont -->
+					<div class="mlogpop_w">
+						<div class="mordmtab_list_w dtype2">
+							<ul class="mordmtab_list">
+								<li>
+									<div class="mordmtab_item">
+										<input type="radio" id="mordmtab201" name="mordmtab2" class="mordmtab" data-pcchkbox=".cellphonebox" checked>
+										<label for="mordmtab201" class="mordmtab_lab">휴대 전화로 인증</label>
+									</div>
+								</li>
+								<li>
+									<div class="mordmtab_item">
+										<input type="radio" id="mordmtab202" name="mordmtab2" class="mordmtab" data-pcchkbox=".emailbox">
+										<label for="mordmtab202" class="mordmtab_lab">이메일로 인증</label>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="mchkbox_w">
+							<!-- mchkbox -->
+							<div class="mchkbox cellphonebox checked">
+								<div class="rdchkitem_mchkp">
+									<div class="rdchkitem">
+										<input type="radio" class="rdchk" name="memiden02" id="memiden02_01" data-mbtab="#mordmtab201" checked>
+										<label for="memiden02_01" class="rdchk_lab">회원 정보에 등록한 휴대 전화로 인증</label>
+									</div>
+								</div>
+								<div class="msform_w">
+									<div class="msform_iw">
+										<!-- msform_low -->
+										<div class="msform_low">
+											<div class="msform_td msfth">
+												<span class="msflab">이름</span>
+											</div>
+											<div class="msform_td msftd">
+												<input type="text" class="fint resitem" data-pcw="364" style="width:364px;" value="홍길동" />
+											</div>
+										</div>
+										<!-- // msform_low -->
+										<!-- msform_low -->
+										<div class="msform_low">
+											<div class="msform_td msfth">
+												<span class="msflab">휴대폰 번호</span>
+											</div>
+											<div class="msform_td msftd">
+												<ul class="msfresitem_list type2">
+													<li>
+														<ul class="fitem_list resitem" style="width:364px" data-pcw="364">
+															<li class="flong_wid"><select class="fsel"><option>82</option><option>0332</option></select></li>
+															<li class="else_li"><span class="fit_else"></span></li>
+															<li><input type="text" class="fint" placeholder="숫자만 입력"></li>
+														</ul>
+													</li>
+													<li class="has_btn"><a href="#" class="btn_msfin">인증번호 받기</a></li>
+												</ul>
+												<div class="msfsec_w"><input type="text" class="fint resitem" placeholder="인증번호 6자리 입력" data-pcw="364" style="width:364px;" /></div>
+											</div>
+										</div>
+										<!-- // msform_low -->
+									</div>
+								</div>
+							</div>
+							<!-- // mchkbox -->
+							<!-- mchkbox -->
+							<div class="mchkbox emailbox">
+								<div class="rdchkitem_mchkp">
+									<div class="rdchkitem">
+										<input type="radio" class="rdchk" name="memiden02" id="memiden02_02" data-mbtab="#mordmtab202">
+										<label for="memiden02_02" class="rdchk_lab">본인 확인 이메일로 인증</label>
+									</div>
+								</div>
+								<div class="msform_w">
+									<div class="msform_iw">
+										<!-- msform_low -->
+										<div class="msform_low">
+											<div class="msform_td msfth">
+												<span class="msflab">이름</span>
+											</div>
+											<div class="msform_td msftd">
+												<input type="text" class="fint resitem" data-pcw="364" style="width:364px;" value="홍길동" />
+											</div>
+										</div>
+										<!-- // msform_low -->
+										<!-- msform_low -->
+										<div class="msform_low">
+											<div class="msform_td msfth">
+												<span class="msflab">이메일 주소</span>
+											</div>
+											<div class="msform_td msftd">
+												<ul class="msfresitem_list type2">
+													<li>
+														<input type="text" class="fint resitem" data-pcw="364" style="width:364px;" value="dq12345@gmail.com">
+													</li>
+													<li class="has_btn"><a href="#" class="btn_msfin">인증번호 받기</a></li>
+												</ul>
+												<div class="msfsec_w"><input type="text" class="fint resitem" placeholder="인증번호 6자리 입력" data-pcw="364" style="width:364px;" /></div>
+											</div>
+										</div>
+										<!-- // msform_low -->
+									</div>
+								</div>
+							</div>
+							<!-- // mchkbox -->
+						</div>
+					</div>
+					<div class="btn_dlayersm_w">
+						<a href="#" class="btn_dlayersm closetrigger"><span class="dlayersm_in">확인</span></a>
+					</div>
+					<a href="#" class="btn_dlayerclose mhidden"><span class="hdtext">닫기</span></a>
+				</div>
+				<!-- // dlayer_box -->
+			</div>
+		</div>
+	</div>
+	<!-- // dlayer_z -->
+</body>
+</html>

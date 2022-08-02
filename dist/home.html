@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="./css/reset.css" rel="stylesheet">
+	<link href="./css/layout.css" rel="stylesheet">
+	<link href="./css/swiper.min.css" rel="stylesheet">
+	<link href="./css/contents.css" rel="stylesheet">
+	<script src="./js/jquery-1.12.4.min.js"></script>
+	<script src="./js/hoverIntent.js"></script>
+	<script src="./js/fontfaceonload.js"></script>
+	<script src="./js/swiper.min.js"></script>
+	<script src="./js/iscroll.js"></script>
+	<script src="./js/front.js"></script>
+	<title></title>
+</head>
+<body class="front_body">
+	<div class="page_wrap">
+		<!-- header -->
+		<header class="phead_z">
+			<div class="phead_in">
+				<a href="javascript:;" class="btn_phtotal"><span class="phtotal_in"><span class="hdtext">전체메뉴</span></span></a>
+				<h1 class="top_headlogo"><a href="#" class="top_headlogo_link"><span class="hdtext">DQ</span></a></h1>
+				<div class="phgm_list_w">
+					<ul class="phgm_list">
+						<li>
+							<div class="phgm_item">
+								<a href="#" class="phgm"><span class="phhm_in">DQ</span></a>
+								<div class="phtm_list_w">
+									<ul class="phtm_list">
+										<li><a href="#" class="phtm">DQ 소개</a></li>
+										<li><a href="#" class="phtm">DQ 검증</a></li>
+										<li><a href="#" class="phtm">DQ 결과</a></li>
+										<li><a href="#" class="phtm">자격증</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="phgm_item">
+								<a href="#" class="phgm"><span class="phhm_in">DQ 아카데미</span></a>
+								<div class="phtm_list_w">
+									<ul class="phtm_list">
+										<li><a href="#" class="phtm">영상</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="phgm_item">
+								<a href="#" class="phgm"><span class="phhm_in">고객지원</span></a>
+								<div class="phtm_list_w">
+									<ul class="phtm_list">
+										<li><a href="#" class="phtm">공지사항</a></li>
+										<li><a href="#" class="phtm">자주하는 질문</a></li>
+										<li><a href="#" class="phtm">1:1 문의하기</a></li>
+										<li><a href="#" class="phtm">단체계정 신청</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="phutil_list_w">
+					<ul class="phutil_list">
+						<li>
+							<div class="phgm_item">
+								<a href="#" class="phgm"><span class="phhm_in">로그인</span></a>
+								<div class="phtm_list_w">
+									<ul class="phtm_list">
+										<li><a href="#" class="phtm">회원가입</a></li>
+										<li><a href="#" class="phtm">아이디 찾기</a></li>
+										<li><a href="#" class="phtm">비밀번호 찾기</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="phlang_w">
+								<a href="#" class="phlang_target"><span class="phlang_target_in">한국어</span></a>
+								<div class="phlang_list_w">
+									<ul class="phlang_list">
+										<li><a href="#" class="phlang_opt">English</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- phtotal_w -->
+			<div class="phtotal_z">
+				<div class="phtotal_bg"></div>
+				<div class="phtotal_w">
+					<div class="phtotal_isc">
+						<div class="pht_toplow">
+							<div class="phtop_logo_w"><img src="./images/total_logo.png" alt="DQ"></div>
+							<div class="phtop_spec_w">DQ에 오신것을 환영합니다!</div>
+						</div>
+						<div class="pht_gmlow">
+							<ul class="phtotal_list">
+								<li id="pht01">
+									<a href="#" class="phtotal_one"><span class="phone_in">로그인</span></a>
+									<div class="phtwo_list_w">
+										<ul class="phtwo_list">
+											<li id="pht01_01"><a href="#" class="phtwo"><span class="phtwo_in">회원가입</span></a></li>
+											<li id="pht01_02"><a href="#" class="phtwo"><span class="phtwo_in">아이디 찾기</span></a></li>
+											<li id="pht01_03"><a href="#" class="phtwo"><span class="phtwo_in">비밀번호 찾기</span></a></li>
+										</ul>
+									</div>
+								</li>
+								<li id="pht02">
+									<a href="#" class="phtotal_one"><span class="phone_in">DQ</span></a>
+									<div class="phtwo_list_w">
+										<ul class="phtwo_list">
+											<li id="pht02_01"><a href="#" class="phtwo"><span class="phtwo_in">DQ 소개</span></a></li>
+											<li id="pht02_02"><a href="#" class="phtwo"><span class="phtwo_in">DQ 검증</span></a></li>
+											<li id="pht02_03"><a href="#" class="phtwo"><span class="phtwo_in">DQ 결과</span></a></li>
+											<li id="pht02_04"><a href="#" class="phtwo"><span class="phtwo_in">자격증</span></a></li>
+										</ul>
+									</div>
+								</li>
+								<li id="pht03">
+									<a href="#" class="phtotal_one"><span class="phone_in">DQ 아카데미</span></a>
+									<div class="phtwo_list_w">
+										<ul class="phtwo_list">
+											<li id="pht03_01"><a href="#" class="phtwo"><span class="phtwo_in">영상</span></a></li>
+										</ul>
+									</div>
+								</li>
+								<li id="pht04">
+									<a href="#" class="phtotal_one"><span class="phone_in">고객지원</span></a>
+									<div class="phtwo_list_w">
+										<ul class="phtwo_list">
+											<li id="pht04_01"><a href="#" class="phtwo"><span class="phtwo_in">공지사항</span></a></li>
+											<li id="pht04_02"><a href="#" class="phtwo"><span class="phtwo_in">자주하는 질문</span></a></li>
+											<li id="pht04_03"><a href="#" class="phtwo"><span class="phtwo_in">1:1 문의하기</span></a></li>
+											<li id="pht04_04"><a href="#" class="phtwo"><span class="phtwo_in">단체계정 신청</span></a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- // phtotal_w -->
+		</header>
+		<!-- // header -->
+		<!-- midsection -->
+		<section class="midsection_z">
+			<div class="mv_z">
+				<div class="mv_low01">
+					<div class="mvcopy_w">
+						<div class="mvcopy_01">DQ 검증</div>
+						<div class="mvcopy_02">DQ 검증에 대한 간략한 설명이 들어갑니다.</div>
+						<ul class="mvc_chklist">
+							<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+							<li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</li>
+							<li>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+						</ul>
+						<div class="btn_mvclink_w">
+							<a href="#" class="btn_mvclink"><span class="mvclink_in">DQ 검증 시작</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="mv_low02">
+					<div class="mvcir_item_list_z">
+						<div class="mvcir_item_list_w">
+							<ul class="mvcir_item_list">
+								<li>
+									<div class="mvcir mvcir01"></div>
+									<div class="mvcir_text"><span class="mvcir_intext">DQ 소개</span><span class="mvcir_sym">배경</span></div>
+									<div class="mvcir_hr"></div>
+									<div class="mvcir_text2">
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br><br>
+										
+										Lorem Ipsum has been the industry's 
+										standard dummy text ever since the 1500s, 
+										when an unknown printer took a galley 
+										of type and scrambled it to make a type 
+										specimen book. 
+									</div>
+								</li>
+								<li>
+									<div class="mvcir mvcir02"></div>
+									<div class="mvcir_text"><span class="mvcir_intext">DQ 소개</span><span class="mvcir_sym">과정</span></div>
+									<div class="mvcir_hr"></div>
+									<div class="mvcir_text2">
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br><br>
+										
+										Lorem Ipsum has been the industry's 
+										standard dummy text ever since the 1500s, 
+										when an unknown printer took a galley 
+										of type and scrambled it to make a type 
+										specimen book. 
+									</div>
+								</li>
+								<li>
+									<div class="mvcir mvcir03"></div>
+									<div class="mvcir_text"><span class="mvcir_intext">DQ 소개</span><span class="mvcir_sym">만든 사람들</span></div>
+									<div class="mvcir_hr"></div>
+									<div class="mvcir_text2">
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br><br>
+										
+										Lorem Ipsum has been the industry's 
+										standard dummy text ever since the 1500s, 
+										when an unknown printer took a galley 
+										of type and scrambled it to make a type 
+										specimen book. 
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mc_z">
+				<div class="mcboth_z">
+					<div class="mcboth_tb">
+						<div class="mcboth_cell mcboth01">
+							<dl class="mcboth_tit_dl">
+								<dt><span class="mcbtit"><span class="mcbtit_sym">DQ</span>결과</span></dt>
+								<dd>
+									<ul class="mcblayer_list">
+										<li class="active"><a href="javascript:;" class="mcbtextlink">평균</a></li>
+										<li><a href="javascript:;" class="mcbtextlink">10대</a></li>
+										<li><a href="javascript:;" class="mcbtextlink">20대</a></li>
+										<li><a href="javascript:;" class="mcbtextlink">30대</a></li>
+										<li><a href="javascript:;" class="mcbtextlink">40대</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<div class="mcbwbox">
+								<img src="./images/main_chart.png" style="width:100%;" class="pc_initem" alt="image">
+								<img src="./images/main_chart_m.png" style="width:100%;" class="m_initem" alt="image">
+							</div>
+						</div>
+						<div class="mcboth_cell mcboth_else"></div>
+						<div class="mcboth_cell mcboth02">
+							<dl class="mcboth_tit_dl">
+								<dt><span class="mcbtit"><span class="mcbtit_sym">영역</span></span></dt>
+								<dd>
+									<ul class="mcblayer_list type2">
+										<li class="active"><a href="javascript:;" class="mcbtextlink">Discipline</a></li>
+										<li><a href="javascript:;" class="mcbtextlink">Learning</a></li>
+										<li><a href="javascript:;" class="mcbtextlink">Well-being</a></li>
+										<li><a href="javascript:;" class="mcbtextlink">Technology</a></li>
+										<li><a href="javascript:;" class="mcbtextlink">Data</a></li>
+										<li><a href="javascript:;" class="mcbtextlink">Content</a></li>
+										<li><a href="javascript:;" class="mcbtextlink">Media</a></li>
+										<li><a href="javascript:;" class="mcbtextlink">Communication</a></li>
+										<li><a href="javascript:;" class="mcbtextlink">Relationship</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<div class="mcbwbox">
+								<div class="mcbwbox_in">
+									<div class="mcbwbox_tit">해당 영역에 대한 자세한 설명이 들어갑니다.</div>
+									<div class="mcbwbox_txt">
+										Lorem Ipsum is simply dummy text of the printing and typesetting 
+										industry.<br><br>
+										
+										Lorem Ipsum has been the industry's standard dummy text ever 
+										since the 1500s, when an unknown printer took a galley of type 
+										and scrambled it to make a type specimen book.<br><br>
+										
+										Lorem Ipsum is simply dummy text of the printing and typesetting 
+										industry.<br><br>
+										
+										Lorem Ipsum has been the industry's standard dummy text ever 
+										since the 1500s, when an unknown printer took a galley of type 
+										and scrambled it to make a type specimen book.<br><br>
+										
+										Lorem Ipsum is simply dummy text of the printing and typesetting 
+										industry. 
+										Lorem Ipsum has been the industry's standard dummy text ever 
+										since the 1500s, when an unknown printer took a galley of type 
+										and scrambled it to make a type specimen book.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mcaca_w">
+					<div class="mcaca_tit_w">
+						<div class="mcaca_tit"><span class="mcaca_sym">DQ</span> 아카데미</div>
+						<div class="mcaca_txt"><span class="mcaca_sym">DQ</span> 아카데미에 대한 간략한 설명이 들어갑니다.</div>
+						<div class="btn_mcaca_w"><a href="#" class="btn_mcaca"><span class="mcaca_in">전체 강좌 보기</span></a></div>
+					</div>
+					<div class="mcaca_cont_w">
+						<div class="mcaca_subtit">추천 강좌 목록</div>
+						<div class="mcathum_list_w">
+							<!--
+							<ul class="mcathum_list">
+								<li>
+									<div class="mcathum_w">
+										<div class="mcathum_img" style="background-image:url(./images/temp_mcthum01.png)"><img src="./images/op_330x186.png" alt="image"></div>
+										<a href="javascript:;" class="btn_mcathum_play"><span class="hdtext">play</span></a>
+									</div>
+									<a href="#" class="mcatail_w">
+										<div class="mcatail_01">영상 타이틀이 들어갑니다.</div>
+										<div class="mcatail_02">2020-05-21<span class="medt_line"></span>01:24:33</div>
+									</a>
+								</li>
+								<li>
+									<div class="mcathum_w">
+										<div class="mcathum_img" style="background-image:url(./images/temp_mcthum02.png)"><img src="./images/op_330x186.png" alt="image"></div>
+										<a href="javascript:;" class="btn_mcathum_play"><span class="hdtext">play</span></a>
+									</div>
+									<a href="#" class="mcatail_w">
+										<div class="mcatail_01">영상 타이틀이 들어갑니다.</div>
+										<div class="mcatail_02">2020-05-21<span class="medt_line"></span>01:24:33</div>
+									</a>
+								</li>
+								<li>
+									<div class="mcathum_w">
+										<div class="mcathum_img" style="background-image:url(./images/temp_mcthum03.png)"><img src="./images/op_330x186.png" alt="image"></div>
+										<a href="javascript:;" class="btn_mcathum_play"><span class="hdtext">play</span></a>
+									</div>
+									<a href="#" class="mcatail_w">
+										<div class="mcatail_01">영상 타이틀이 들어갑니다.</div>
+										<div class="mcatail_02">2020-05-21<span class="medt_line"></span>01:24:33</div>
+									</a>
+								</li>
+							</ul>
+							-->
+							<ul class="mcathum_list">
+								<li>
+									<div class="mcathum_w">
+										<div class="mcathum_img" style="background-color: #000000;">
+											<img src="./images/op_330x186.png" alt="image">
+											<div class="mcathum_ifr">
+												<iframe width="100%" height="100%" src="https://www.youtube.com/embed/SDDvIG1K2hk?rel=0"
+												frameborder="0" allowfullscreen="" style="position: absolute; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+											</div>
+										</div>
+									</div>
+									<div class="mcatail_w">
+										<div class="medt_spec01">
+											원격 화상 수업을 위한 화상회의 도구 줌 사용법 how to use zoom.us
+										</div>
+										<div class="medt_spec02">
+											2020.03.20<span class="medt_line"></span>06:28
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="mcathum_w">
+										<div class="mcathum_img" style="background-color: #000000;">
+											<img src="./images/op_330x186.png" alt="image">
+											<div class="mcathum_ifr">
+												<iframe width="100%" height="100%" src="https://www.youtube.com/embed/UtltGajcjoE?rel=0"
+												frameborder="0" allowfullscreen="" style="position: absolute; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+											</div>
+										</div>
+									</div>
+									<div class="mcatail_w">
+										<div class="medt_spec01">
+											블로 사용 및 활용법 how to use VLLO
+										</div>
+										<div class="medt_spec02">
+											2019.12.15<span class="medt_line"></span>06:48
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="mcathum_w">
+										<div class="mcathum_img" style="background-color: #000000;">
+											<img src="./images/op_330x186.png" alt="image">
+											<div class="mcathum_ifr">
+												<iframe width="100%" height="100%" src="https://www.youtube.com/embed/2tNFMpuXns8?rel=0"
+												frameborder="0" allowfullscreen="" style="position: absolute; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+											</div>
+										</div>
+									</div>
+									<div class="mcatail_w">
+										<div class="medt_spec01">
+											무료 디자인 도구 미리캔버스 PC에서 사용하는 방법
+										</div>
+										<div class="medt_spec02">
+											2020.08.27<span class="medt_line"></span>03:20
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- // midsection -->
+		<!-- footer -->
+		<footer class="pfoot_z">
+			<div class="pfoot_in">
+				<span class="pfoot_logo"><span class="hdtext">DQ</span></span>
+				<ul class="pbotm_list">
+					<li><div class="pbotm pbotm01">[10405]경기도 일산동구 정발산동818</div></li>
+					<li><a href="tel:0220623001" class="pbotm pbotm02">TEL (02)2062-3001</a></li>
+					<li><a href="mailto:cdl@cdledu.rog" class="pbotm pbotm03">EMAIL cdl@cdledu.rog</a></li>
+				</ul>
+			</div>
+		</footer>
+		<!-- // footer -->
+	</div>
+</body>
+</html>

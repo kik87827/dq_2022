@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	@@include('./include/head.html')
+</head>
+<body class="front_body">
+	<div class="page_wrap mypage"><!-- 메뉴 디자인 식별 mypage -->
+		@@include('./include/header2.html')
+		<!-- midsection -->
+		<section class="midsection_z">
+			<div class="mstit_w">
+				<h2 class="mstit">마이페이지</h2>
+				<p class="mstit_sub">마이페이지에서 정보 수정, DQ 검증 및 내역, 추천 강좌, 자격증 등의 정보를 보실 수 있습니다.</p>
+			</div>
+			<div class="msboth_tb_w">
+				<div class="msboth_tb">
+					<div class="msboth_td msb01">
+						<ul class="msmenu_list">
+							<li><a href="javascript:;" class="msmenu"><span class="msmenu_in">정보 수정</span></a></li>
+							<li><a href="javascript:;" class="msmenu"><span class="msmenu_in">DQ 검증 내역 및 결과</span></a></li>
+							<li>
+								<a href="javascript:;" class="msmenu"><span class="msmenu_in">추천 강좌</span></a>
+								<ul class="msmenutwo_list">
+									<li><a href="javascript:;" class="msmenutwo"><span class="msmenutwo_in">추천 강좌</span></a></li>
+									<li><a href="javascript:;" class="msmenutwo"><span class="msmenutwo_in">재생 목록</span></a></li>
+								</ul>
+							</li>
+							<li class="active"><a href="javascript:;" class="msmenu"><span class="msmenu_in">자격증</span></a></li>
+							<li><a href="javascript:;" class="msmenu"><span class="msmenu_in">회원 탈퇴</span></a></li>
+						</ul>
+						<!-- mobile -->
+						<div class="mbmsmenu_list_w">
+							<ul class="mbmsmenu_list">
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">정보 수정</span></a></li>
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">DQ 검증 내역 및 결과</span></a></li>
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">추천 강좌</span></a></li>
+								<li class="active"><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">자격증</span></a></li>
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">회원 탈퇴</span></a></li>
+							</ul>
+						</div>
+						<!-- // mobile -->
+					</div>
+					<div class="msboth_td msb02">
+						<div class="msbin_tit_w"><h3 class="msbin_tit">자격증</h3></div>
+						<div class="msbin_cont">
+							<p class="msbin_cment">자격증 내역</p>
+							<!-- -->
+							<div class="pcmskin_w mlicense_w">
+								<!-- pcskin -->
+								<div class="pcskin">
+									<div class="listdata_tb_w">
+										<table class="listdata_tb">
+											<colgroup>
+												<col style="width:12%" />
+												<col style="width:15%" />
+												<col />
+												<col style="width:30%" />
+												<col style="width:15%" />
+											</colgroup>
+											<thead>
+												<tr>
+													<th>차시</th>
+													<th>자격증 종류</th>
+													<th>자격증 유효기간</th>
+													<th>비고</th>
+													<th>보기/출력</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td><div class="ldata">1</div></td>
+													<td><div class="ldata">2급</div></td>
+													<td><div class="ldata">2020.03.11~2021.03.10</div></td>
+													<td><div class="ldata">텍스트</div></td>
+													<td class="type2">
+														<div class="btn_linsm_w">
+															<a href="#" class="btn_linsm">보기</a>
+															<a href="#" class="btn_linsm">출력</a>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td><div class="ldata">2</div></td>
+													<td><div class="ldata">1급</div></td>
+													<td><div class="ldata">2020.03.11~2021.03.10</div></td>
+													<td><div class="ldata">텍스트</div></td>
+													<td class="type2">
+														<div class="btn_linsm_w">
+															<a href="#" class="btn_linsm">보기</a>
+															<a href="#" class="btn_linsm">출력</a>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td><div class="ldata">3</div></td>
+													<td><div class="ldata">자격증 종류</div></td>
+													<td><div class="ldata">자격증 유효기간</div></td>
+													<td><div class="ldata">텍스트</div></td>
+													<td class="type2">
+														<div class="btn_linsm_w">
+															<a href="#" class="btn_linsm">보기</a>
+															<a href="#" class="btn_linsm">출력</a>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="5" class="nodata_td"><div class="nodata">데이터가 없습니다.</div></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<!-- // pcskin -->
+								<!-- mskin -->
+								<div class="mskin">
+									<div class="listdata_mtb_w">
+										<table class="listdata_mtb">
+											<thead>
+												<tr>
+													<th class="has_wsptext"><div class="wsptext">차시</div></th>
+													<th class="has_wsptext"><div class="wsptext">자격증 종류<br>비고</div></th>
+													<th><div class="wspnum">자격증 유효기간<br>보기/출력</div></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>
+														<div class="lmtdata_w">
+															<div class="lmtdata">1</div>
+														</div>
+													</td>
+													<td class="multi_td">
+														<div class="lmtdata_w">
+															<div class="lmtdata">2급</div>
+															<div class="lmtdata">비고내용</div>
+														</div>
+													</td>
+													<td class="multi_td">
+														<div class="lmtdata_w type2">
+															<div class="lmtdata">2020.03.01~2021.03.10</div>
+															<div class="lmtdata">
+																<div class="btn_lmtin_tb">
+																	<a href="#" class="btn_lmtin">보기</a>
+																	<a href="#" class="btn_lmtin">출력</a>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="lmtdata_w">
+															<div class="lmtdata">2</div>
+														</div>
+													</td>
+													<td class="multi_td">
+														<div class="lmtdata_w">
+															<div class="lmtdata">1급</div>
+															<div class="lmtdata">비고내용</div>
+														</div>
+													</td>
+													<td class="multi_td">
+														<div class="lmtdata_w type2">
+															<div class="lmtdata">2020.03.01~2021.03.10</div>
+															<div class="lmtdata">
+																<div class="btn_lmtin_tb">
+																	<a href="#" class="btn_lmtin">보기</a>
+																	<a href="#" class="btn_lmtin">출력</a>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="lmtdata_w">
+															<div class="lmtdata">3</div>
+														</div>
+													</td>
+													<td class="multi_td">
+														<div class="lmtdata_w">
+															<div class="lmtdata">자격증 종류</div>
+															<div class="lmtdata"></div>
+														</div>
+													</td>
+													<td class="multi_td">
+														<div class="lmtdata_w type2">
+															<div class="lmtdata">자격증 유효기간</div>
+															<div class="lmtdata">
+																<div class="btn_lmtin_tb">
+																	<a href="#" class="btn_lmtin">보기</a>
+																	<a href="#" class="btn_lmtin">출력</a>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="3" class="nodata_td"><div class="nodata">데이터가 없습니다.</div></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<!-- // mskin -->
+							</div>
+							<!-- // -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- // midsection -->
+		<script>
+			DQ.horMenuIscInit();
+		</script>
+		@@include('./include/footer.html')
+	</div>
+</body>
+</html>

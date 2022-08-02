@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	@@include('./include/head.html')
+</head>
+<body class="front_body">
+	<div class="page_wrap member"><!-- 메뉴 디자인 식별 member -->
+		@@include('./include/header.html')
+		<!-- midsection -->
+		<section class="midsection_z">
+			<div class="mstit_w">
+				<h2 class="mstit">회원가입</h2>
+				<p class="mstit_sub">DQ에 오신 것을 환영합니다! <br class="mbr">사이트 이용을 위해 먼저 회원가입을 해주세요.</p>
+			</div>
+			<div class="msbox_w">
+				<div class="msbox formbox ftype2">
+					<div class="msrdtab_list_w">
+						<ul class="msrdtab_list sametype2">
+							<li>
+								<div class="msrdtab_item">
+									<input type="radio" id="msrd01" name="msrd" class="msrd" checked>
+									<label for="msrd01" class="msrd_lab">만 14세 이상</label>
+								</div>
+							</li>
+							<li>
+								<div class="msrdtab_item">
+									<input type="radio" id="msrd02" name="msrd" class="msrd">
+									<label for="msrd02" class="msrd_lab">만 14세 미만</label>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="msmid_para">개인정보보호법 제 22조 5항에 의해 만 14세 미만 어린이/학생은 법정대리인의 동의가 필요합니다.</div>
+					<div class="pgscrbox_z">
+						<div class="pgscritem_w">
+							<div class="pgscrbox">
+								<p class="pgscr_tit">DQ 사이트 이용 약관</p>
+								<div class="pgscr_initem">
+									<p class="pgscr_intit">타이틀</p>
+									<p class="pgscr_intxt">내용</p>
+								</div>
+							</div>
+							<div class="chkrc_item type2">
+								<input type="checkbox" id="chkrc0101" class="chkrc">
+								<label for="chkrc0101" class="chkrc_lab">DQ 사이트 회원 서비스를 위한 이용을 위한 필수 약관을 확인하였고 이에 동의합니다.</label>
+							</div>
+						</div>
+						<div class="pgscritem_w">
+							<div class="pgscrbox">
+								<p class="pgscr_tit">개인정보 수집 안내</p>
+								<div class="pgscr_initem">
+									<p class="pgscr_intit">타이틀</p>
+									<p class="pgscr_intxt">내용</p>
+								</div>
+							</div>
+							<div class="chkrc_item type2">
+								<input type="checkbox" id="chkrc0102" class="chkrc">
+								<label for="chkrc0102" class="chkrc_lab">회원 개인정보 수집에 대한 이용안내를 확인하였고 이에 동의합니다.</label>
+							</div>
+						</div>
+					</div>
+					<div class="btn_mscsm_only_w">
+						<a href="#" class="btn_mscsm_only type2"><span class="btn_mscsm_only_in">확인 &gt;</span></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- // midsection -->
+		<script>DQ.mobileTotalRock("#pht01","#pht01_01");</script>
+		@@include('./include/footer.html')
+	</div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	@@include('./include/head.html')
+</head>
+<body class="front_body">
+	<div class="page_wrap customer"><!-- 메뉴 디자인 식별 dq -->
+		@@include('./include/header.html')
+		<!-- midsection -->
+		<section class="midsection_z">
+			<div class="mstit_w">
+				<h2 class="mstit">단체 계정 신청</h2>
+				<p class="mstit_sub">단체 계정을 별도로 신청 할 수 있습니다. 아래의 정보를 작성한 뒤 확인을 눌러주세요.</p>
+			</div>
+			<div class="msbox_w">
+				<div class="msbox dstype2">
+					<div class="msb_ment_w">
+						<div class="msb_ment01">대표자 정보 입력 (<span class="msb_sym">*</span>는 필수)</div>
+						<div class="msb_ment02">입력하신 개인정보는 회원님의 동의없이 공개되지 않으며, 개인정보취급방침에 따라 보호되고 있습니다.<br>단체 회원 아이디가 발급되면 대표자 메일로 안내 드리겠습니다.</div>
+					</div>
+					<div class="msform_w">
+						<div class="msform_iw type2 type3">
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">단체명</span>
+								</div>
+								<div class="msform_td msftd">
+									<input type="text" class="fint resitem" data-pcw="364" placeholder="단체명이 들어갑니다." style="width:364px;" />
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">신청 아이디 갯수</span>
+								</div>
+								<div class="msform_td msftd">
+									<input type="text" class="fint resitem" data-pcw="364" placeholder="20개" style="width:364px;" />
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">희망 아이디<br>(8자 이상)</span>
+								</div>
+								<div class="msform_td msftd">
+									<input type="text" class="fint resitem d_placeholder" placeholder="예) abcdef01부터 ~ abcdef50 (희망 아이디)" data-saveplaceholder="예) abcdef01부터 ~ abcdef50 (희망 아이디)" data-pcw="364" style="width:364px;" />
+									<div class="nrep_place"></div>
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">단체 소개</span>
+								</div>
+								<div class="msform_td msftd">
+									<textarea rows="10" cols="10" class="msfta" placeholder="단체 소개가 들어갑니다."></textarea>
+								</div>
+							</div>
+							<!-- // msform_low -->
+						</div>
+						<div class="btn_mscsm_only_w">
+							<a href="#" class="btn_mscsm_only type2"><span class="btn_mscsm_only_in">확인</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- // midsection -->
+		<script>
+			DQ.mobileTotalRock("#pht04","#pht04_04");
+		</script>
+		@@include('./include/footer.html')
+	</div>
+</body>
+</html>

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="./css/reset.css" rel="stylesheet">
+	<link href="./css/layout.css" rel="stylesheet">
+	<link href="./css/swiper.min.css" rel="stylesheet">
+	<link href="./css/contents.css" rel="stylesheet">
+	<script src="./js/jquery-1.12.4.min.js"></script>
+	<script src="./js/hoverIntent.js"></script>
+	<script src="./js/fontfaceonload.js"></script>
+	<script src="./js/swiper.min.js"></script>
+	<script src="./js/iscroll.js"></script>
+	<script src="./js/front.js"></script>
+	<title></title>
+</head>
+<body class="front_body">
+	<div class="page_wrap dq"><!-- 메뉴 디자인 식별 dq -->
+		<!-- header -->
+		<header class="phead_z">
+			<div class="phead_in">
+				<a href="javascript:;" class="btn_phtotal"><span class="phtotal_in"><span class="hdtext">전체메뉴</span></span></a>
+				<h1 class="top_headlogo"><a href="#" class="top_headlogo_link"><span class="hdtext">DQ</span></a></h1>
+				<div class="phgm_list_w">
+					<ul class="phgm_list">
+						<li>
+							<div class="phgm_item">
+								<a href="#" class="phgm"><span class="phhm_in">DQ</span></a>
+								<div class="phtm_list_w">
+									<ul class="phtm_list">
+										<li><a href="#" class="phtm">DQ 소개</a></li>
+										<li><a href="#" class="phtm">DQ 검증</a></li>
+										<li><a href="#" class="phtm">DQ 결과</a></li>
+										<li><a href="#" class="phtm">자격증</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="phgm_item">
+								<a href="#" class="phgm"><span class="phhm_in">DQ 아카데미</span></a>
+								<div class="phtm_list_w">
+									<ul class="phtm_list">
+										<li><a href="#" class="phtm">영상</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="phgm_item">
+								<a href="#" class="phgm"><span class="phhm_in">고객지원</span></a>
+								<div class="phtm_list_w">
+									<ul class="phtm_list">
+										<li><a href="#" class="phtm">공지사항</a></li>
+										<li><a href="#" class="phtm">자주하는 질문</a></li>
+										<li><a href="#" class="phtm">1:1 문의하기</a></li>
+										<li><a href="#" class="phtm">단체계정 신청</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="phutil_list_w">
+					<ul class="phutil_list">
+						<li>
+							<div class="phgm_item">
+								<a href="#" class="phgm"><span class="phhm_in">로그인</span></a>
+								<div class="phtm_list_w">
+									<ul class="phtm_list">
+										<li><a href="#" class="phtm">회원가입</a></li>
+										<li><a href="#" class="phtm">아이디 찾기</a></li>
+										<li><a href="#" class="phtm">비밀번호 찾기</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="phlang_w">
+								<a href="#" class="phlang_target"><span class="phlang_target_in">한국어</span></a>
+								<div class="phlang_list_w">
+									<ul class="phlang_list">
+										<li><a href="#" class="phlang_opt">English</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- phtotal_w -->
+			<div class="phtotal_z">
+				<div class="phtotal_bg"></div>
+				<div class="phtotal_w">
+					<div class="phtotal_isc">
+						<div class="pht_toplow">
+							<div class="phtop_logo_w"><img src="./images/total_logo.png" alt="DQ"></div>
+							<div class="phtop_spec_w">DQ에 오신것을 환영합니다!</div>
+						</div>
+						<div class="pht_gmlow">
+							<ul class="phtotal_list">
+								<li id="pht01">
+									<a href="#" class="phtotal_one"><span class="phone_in">로그인</span></a>
+									<div class="phtwo_list_w">
+										<ul class="phtwo_list">
+											<li id="pht01_01"><a href="#" class="phtwo"><span class="phtwo_in">회원가입</span></a></li>
+											<li id="pht01_02"><a href="#" class="phtwo"><span class="phtwo_in">아이디 찾기</span></a></li>
+											<li id="pht01_03"><a href="#" class="phtwo"><span class="phtwo_in">비밀번호 찾기</span></a></li>
+										</ul>
+									</div>
+								</li>
+								<li id="pht02">
+									<a href="#" class="phtotal_one"><span class="phone_in">DQ</span></a>
+									<div class="phtwo_list_w">
+										<ul class="phtwo_list">
+											<li id="pht02_01"><a href="#" class="phtwo"><span class="phtwo_in">DQ 소개</span></a></li>
+											<li id="pht02_02"><a href="#" class="phtwo"><span class="phtwo_in">DQ 검증</span></a></li>
+											<li id="pht02_03"><a href="#" class="phtwo"><span class="phtwo_in">DQ 결과</span></a></li>
+											<li id="pht02_04"><a href="#" class="phtwo"><span class="phtwo_in">자격증</span></a></li>
+										</ul>
+									</div>
+								</li>
+								<li id="pht03">
+									<a href="#" class="phtotal_one"><span class="phone_in">DQ 아카데미</span></a>
+									<div class="phtwo_list_w">
+										<ul class="phtwo_list">
+											<li id="pht03_01"><a href="#" class="phtwo"><span class="phtwo_in">영상</span></a></li>
+										</ul>
+									</div>
+								</li>
+								<li id="pht04">
+									<a href="#" class="phtotal_one"><span class="phone_in">고객지원</span></a>
+									<div class="phtwo_list_w">
+										<ul class="phtwo_list">
+											<li id="pht04_01"><a href="#" class="phtwo"><span class="phtwo_in">공지사항</span></a></li>
+											<li id="pht04_02"><a href="#" class="phtwo"><span class="phtwo_in">자주하는 질문</span></a></li>
+											<li id="pht04_03"><a href="#" class="phtwo"><span class="phtwo_in">1:1 문의하기</span></a></li>
+											<li id="pht04_04"><a href="#" class="phtwo"><span class="phtwo_in">단체계정 신청</span></a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- // phtotal_w -->
+		</header>
+		<!-- // header -->
+		<!-- midsection -->
+		<section class="midsection_z">
+			<div class="mstit_w">
+				<h2 class="mstit">DQ 검증 결과</h2>
+				<p class="mstit_sub">DQ 검증 결과를 Summary와 각 영역별로 볼 수 있습니다.</p>
+			</div>
+			<div class="msboth_tb_w">
+				<div class="msboth_tb">
+					<div class="msboth_td msb01">
+						<ul class="msmenu_list">
+							<li class="active"><a href="javascript:;" class="msmenu"><span class="msmenu_in">DQ 검증 결과</span></a></li>
+							<li><a href="javascript:;" class="msmenu"><span class="msmenu_in">DQ 검증 Summary</span></a></li>
+							<li><a href="javascript:;" class="msmenu"><span class="msmenu_in">DQ 검증 영역별 결과</span></a></li>
+						</ul>
+						<!-- mobile -->
+						<div class="mbmsmenu_list_w">
+							<ul class="mbmsmenu_list">
+								<li class="active"><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">DQ 검증 결과</span></a></li>
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">DQ 검증 Summary</span></a></li>
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">DQ 검증 영역별 결과</span></a></li>
+							</ul>
+						</div>
+						<!-- // mobile -->
+					</div>
+					<div class="msboth_td msb02">
+						<div class="msbin_item_w">
+							<div class="msbin_tit_w">
+								<h3 class="msbin_tit">나의 DQ 검증 결과</h3>
+								<div class="msbin_titlayer">
+									<ul class="msching_list">
+										<li><div class="msching"><div class="mschszbox">내 DQ</div></div></li>
+										<li><div class="msching ctype2"><div class="mschszbox">평균</div></div></li>
+										<li><div class="msching ctype3"><div class="mschszbox">표준</div></div></li>
+									</ul>
+								</div>
+							</div>
+							<div class="msbin_cont mtype2 presbt20">
+								<!-- msresc_tb -->
+								<div class="msresc_tb">
+									<div class="msresc_td msresc01">
+										<div class="msresc_chart_w">
+											<img src="./images/dq_res_chart.png" class="pc_initem" alt="image">
+											<img src="./images/dq_res_chart_m.png" class="m_initem" alt="image">
+										</div>
+									</div>
+									<div class="msresc_td msresc02">
+										<div class="mhorchart_total_item_w">
+											<div class="mhorchart_item">
+												<!-- mhorchart_bar -->
+												<div class="mhorchart_bar">
+													<span class="mhor_unit hunit01"></span>
+													<span class="mhor_unit hunit02"></span>
+													<span class="mhor_unit hunit03"></span>
+													<!-- mhorc_wbox -->
+													<div class="mhorc_wbox" style="left:30%"><span class="mhorc_wtxt">30</span></div>
+													<div class="mhorc_wbox ctype2" style="left:50%"><span class="mhorc_wtxt">50</span></div>
+													<div class="mhorc_wbox ctype3" style="left:80%"><span class="mhorc_wtxt">80</span></div>
+													<!-- // mhorc_wbox -->
+												</div>
+												<!-- // mhorchart_bar -->
+											</div>
+										</div>
+										<div class="mstotalspec_w">
+											<div class="mschartspec_w">
+												<div class="mschartspec_01">디지털 기기 사용 규칙이 없습니다.</div>
+												<div class="mschartspec_02">XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다. </div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- // msresc_tb -->
+							</div>
+						</div>
+						<div class="msbin_item_w">
+							<div class="msbin_tit_w"><h3 class="msbin_tit">DQ 영역별 해석</h3></div>
+							<div class="msbin_cont mtype2">
+								<!-- msrestail_item_w -->
+								<div class="msrestail_item_w">
+									<!-- msrestail_item -->
+									<div class="msrestail_item">
+										<div class="msrestail_dl">
+											<div class="msrestail_dt">
+												<span class="msrespwp">Discipline</span>
+											</div>
+											<div class="msrestail_dd">
+												<div class="mhorchart_item">
+													<!-- mhorchart_bar -->
+													<div class="mhorchart_bar">
+														<span class="mhor_unit hunit01"></span>
+														<span class="mhor_unit hunit02"></span>
+														<span class="mhor_unit hunit03"></span>
+														<!-- mhorc_wbox -->
+														<div class="mhorc_wbox" style="left:30%"><span class="mhorc_wtxt">30</span></div>
+														<div class="mhorc_wbox ctype2" style="left:50%"><span class="mhorc_wtxt">50</span></div>
+														<div class="mhorc_wbox ctype3" style="left:80%"><span class="mhorc_wtxt">80</span></div>
+														<!-- // mhorc_wbox -->
+													</div>
+													<!-- // mhorchart_bar -->
+												</div>
+											</div>
+										</div>
+										<div class="mschartspec_w">
+											<div class="mschartspec_01">디지털 기기 사용 규칙이 없습니다.</div>
+											<div class="mschartspec_02">XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다. </div>
+										</div>
+									</div>
+									<!-- // msrestail_item -->
+									<!-- msrestail_item -->
+									<div class="msrestail_item">
+										<div class="msrestail_dl">
+											<div class="msrestail_dt">
+												<span class="msrespwp">Learning</span>
+											</div>
+											<div class="msrestail_dd">
+												<div class="mhorchart_item">
+													<!-- mhorchart_bar -->
+													<div class="mhorchart_bar">
+														<span class="mhor_unit hunit01"></span>
+														<span class="mhor_unit hunit02"></span>
+														<span class="mhor_unit hunit03"></span>
+														<!-- mhorc_wbox -->
+														<div class="mhorc_wbox" style="left:30%"><span class="mhorc_wtxt">30</span></div>
+														<div class="mhorc_wbox ctype2" style="left:50%"><span class="mhorc_wtxt">50</span></div>
+														<div class="mhorc_wbox ctype3" style="left:80%"><span class="mhorc_wtxt">80</span></div>
+														<!-- // mhorc_wbox -->
+													</div>
+													<!-- // mhorchart_bar -->
+												</div>
+											</div>
+										</div>
+										<div class="mschartspec_w">
+											<div class="mschartspec_01">디지털 기기 사용 규칙이 없습니다.</div>
+											<div class="mschartspec_02">XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다. </div>
+										</div>
+									</div>
+									<!-- // msrestail_item -->
+									<!-- msrestail_item -->
+									<div class="msrestail_item">
+										<div class="msrestail_dl">
+											<div class="msrestail_dt">
+												<span class="msrespwp">Well-being</span>
+											</div>
+											<div class="msrestail_dd">
+												<div class="mhorchart_item">
+													<!-- mhorchart_bar -->
+													<div class="mhorchart_bar">
+														<span class="mhor_unit hunit01"></span>
+														<span class="mhor_unit hunit02"></span>
+														<span class="mhor_unit hunit03"></span>
+														<!-- mhorc_wbox -->
+														<div class="mhorc_wbox" style="left:30%"><span class="mhorc_wtxt">30</span></div>
+														<div class="mhorc_wbox ctype2" style="left:50%"><span class="mhorc_wtxt">50</span></div>
+														<div class="mhorc_wbox ctype3" style="left:80%"><span class="mhorc_wtxt">80</span></div>
+														<!-- // mhorc_wbox -->
+													</div>
+													<!-- // mhorchart_bar -->
+												</div>
+											</div>
+										</div>
+										<div class="mschartspec_w">
+											<div class="mschartspec_01">디지털 기기 사용 규칙이 없습니다.</div>
+											<div class="mschartspec_02">XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다. </div>
+										</div>
+									</div>
+									<!-- // msrestail_item -->
+									<!-- msrestail_item -->
+									<div class="msrestail_item">
+										<div class="msrestail_dl">
+											<div class="msrestail_dt">
+												<span class="msrespwp">Technology</span>
+											</div>
+											<div class="msrestail_dd">
+												<div class="mhorchart_item">
+													<!-- mhorchart_bar -->
+													<div class="mhorchart_bar">
+														<span class="mhor_unit hunit01"></span>
+														<span class="mhor_unit hunit02"></span>
+														<span class="mhor_unit hunit03"></span>
+														<!-- mhorc_wbox -->
+														<div class="mhorc_wbox" style="left:30%"><span class="mhorc_wtxt">30</span></div>
+														<div class="mhorc_wbox ctype2" style="left:50%"><span class="mhorc_wtxt">50</span></div>
+														<div class="mhorc_wbox ctype3" style="left:80%"><span class="mhorc_wtxt">80</span></div>
+														<!-- // mhorc_wbox -->
+													</div>
+													<!-- // mhorchart_bar -->
+												</div>
+											</div>
+										</div>
+										<div class="mschartspec_w">
+											<div class="mschartspec_01">디지털 기기 사용 규칙이 없습니다.</div>
+											<div class="mschartspec_02">XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다. </div>
+										</div>
+									</div>
+									<!-- // msrestail_item -->
+									<!-- msrestail_item -->
+									<div class="msrestail_item">
+										<div class="msrestail_dl">
+											<div class="msrestail_dt">
+												<span class="msrespwp">Data</span>
+											</div>
+											<div class="msrestail_dd">
+												<div class="mhorchart_item">
+													<!-- mhorchart_bar -->
+													<div class="mhorchart_bar">
+														<span class="mhor_unit hunit01"></span>
+														<span class="mhor_unit hunit02"></span>
+														<span class="mhor_unit hunit03"></span>
+														<!-- mhorc_wbox -->
+														<div class="mhorc_wbox" style="left:30%"><span class="mhorc_wtxt">30</span></div>
+														<div class="mhorc_wbox ctype2" style="left:50%"><span class="mhorc_wtxt">50</span></div>
+														<div class="mhorc_wbox ctype3" style="left:80%"><span class="mhorc_wtxt">80</span></div>
+														<!-- // mhorc_wbox -->
+													</div>
+													<!-- // mhorchart_bar -->
+												</div>
+											</div>
+										</div>
+										<div class="mschartspec_w">
+											<div class="mschartspec_01">디지털 기기 사용 규칙이 없습니다.</div>
+											<div class="mschartspec_02">XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다. </div>
+										</div>
+									</div>
+									<!-- // msrestail_item -->
+									<!-- msrestail_item -->
+									<div class="msrestail_item">
+										<div class="msrestail_dl">
+											<div class="msrestail_dt">
+												<span class="msrespwp">Content</span>
+											</div>
+											<div class="msrestail_dd">
+												<div class="mhorchart_item">
+													<!-- mhorchart_bar -->
+													<div class="mhorchart_bar">
+														<span class="mhor_unit hunit01"></span>
+														<span class="mhor_unit hunit02"></span>
+														<span class="mhor_unit hunit03"></span>
+														<!-- mhorc_wbox -->
+														<div class="mhorc_wbox" style="left:30%"><span class="mhorc_wtxt">30</span></div>
+														<div class="mhorc_wbox ctype2" style="left:50%"><span class="mhorc_wtxt">50</span></div>
+														<div class="mhorc_wbox ctype3" style="left:80%"><span class="mhorc_wtxt">80</span></div>
+														<!-- // mhorc_wbox -->
+													</div>
+													<!-- // mhorchart_bar -->
+												</div>
+											</div>
+										</div>
+										<div class="mschartspec_w">
+											<div class="mschartspec_01">디지털 기기 사용 규칙이 없습니다.</div>
+											<div class="mschartspec_02">XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다. </div>
+										</div>
+									</div>
+									<!-- // msrestail_item -->
+									<!-- msrestail_item -->
+									<div class="msrestail_item">
+										<div class="msrestail_dl">
+											<div class="msrestail_dt">
+												<span class="msrespwp">Media</span>
+											</div>
+											<div class="msrestail_dd">
+												<div class="mhorchart_item">
+													<!-- mhorchart_bar -->
+													<div class="mhorchart_bar">
+														<span class="mhor_unit hunit01"></span>
+														<span class="mhor_unit hunit02"></span>
+														<span class="mhor_unit hunit03"></span>
+														<!-- mhorc_wbox -->
+														<div class="mhorc_wbox" style="left:30%"><span class="mhorc_wtxt">30</span></div>
+														<div class="mhorc_wbox ctype2" style="left:50%"><span class="mhorc_wtxt">50</span></div>
+														<div class="mhorc_wbox ctype3" style="left:80%"><span class="mhorc_wtxt">80</span></div>
+														<!-- // mhorc_wbox -->
+													</div>
+													<!-- // mhorchart_bar -->
+												</div>
+											</div>
+										</div>
+										<div class="mschartspec_w">
+											<div class="mschartspec_01">디지털 기기 사용 규칙이 없습니다.</div>
+											<div class="mschartspec_02">XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다. </div>
+										</div>
+									</div>
+									<!-- // msrestail_item -->
+									<!-- msrestail_item -->
+									<div class="msrestail_item">
+										<div class="msrestail_dl">
+											<div class="msrestail_dt">
+												<span class="msrespwp">Communication</span>
+											</div>
+											<div class="msrestail_dd">
+												<div class="mhorchart_item">
+													<!-- mhorchart_bar -->
+													<div class="mhorchart_bar">
+														<span class="mhor_unit hunit01"></span>
+														<span class="mhor_unit hunit02"></span>
+														<span class="mhor_unit hunit03"></span>
+														<!-- mhorc_wbox -->
+														<div class="mhorc_wbox" style="left:30%"><span class="mhorc_wtxt">30</span></div>
+														<div class="mhorc_wbox ctype2" style="left:50%"><span class="mhorc_wtxt">50</span></div>
+														<div class="mhorc_wbox ctype3" style="left:80%"><span class="mhorc_wtxt">80</span></div>
+														<!-- // mhorc_wbox -->
+													</div>
+													<!-- // mhorchart_bar -->
+												</div>
+											</div>
+										</div>
+										<div class="mschartspec_w">
+											<div class="mschartspec_01">디지털 기기 사용 규칙이 없습니다.</div>
+											<div class="mschartspec_02">XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다. </div>
+										</div>
+									</div>
+									<!-- // msrestail_item -->
+									<!-- msrestail_item -->
+									<div class="msrestail_item">
+										<div class="msrestail_dl">
+											<div class="msrestail_dt">
+												<span class="msrespwp">Relationship</span>
+											</div>
+											<div class="msrestail_dd">
+												<div class="mhorchart_item">
+													<!-- mhorchart_bar -->
+													<div class="mhorchart_bar">
+														<span class="mhor_unit hunit01"></span>
+														<span class="mhor_unit hunit02"></span>
+														<span class="mhor_unit hunit03"></span>
+														<!-- mhorc_wbox -->
+														<div class="mhorc_wbox" style="left:30%"><span class="mhorc_wtxt">30</span></div>
+														<div class="mhorc_wbox ctype2" style="left:50%"><span class="mhorc_wtxt">50</span></div>
+														<div class="mhorc_wbox ctype3" style="left:80%"><span class="mhorc_wtxt">80</span></div>
+														<!-- // mhorc_wbox -->
+													</div>
+													<!-- // mhorchart_bar -->
+												</div>
+											</div>
+										</div>
+										<div class="mschartspec_w">
+											<div class="mschartspec_01">디지털 기기 사용 규칙이 없습니다.</div>
+											<div class="mschartspec_02">XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다.  XXX님은 디지털기기 사용을 위한 규칙이 따로 없습니다. 이럴 경우 디지털을 과용하거나 남용할 수 있습니다. </div>
+										</div>
+									</div>
+									<!-- // msrestail_item -->
+								</div>
+								<!-- // msrestail_item_w -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- // midsection -->
+		<script>
+			DQ.mobileTotalRock("#pht02","#pht02_02");
+			DQ.horMenuIscInit();
+		</script>
+		<!-- footer -->
+		<footer class="pfoot_z">
+			<div class="pfoot_in">
+				<span class="pfoot_logo"><span class="hdtext">DQ</span></span>
+				<ul class="pbotm_list">
+					<li><div class="pbotm pbotm01">[10405]경기도 일산동구 정발산동818</div></li>
+					<li><a href="tel:0220623001" class="pbotm pbotm02">TEL (02)2062-3001</a></li>
+					<li><a href="mailto:cdl@cdledu.rog" class="pbotm pbotm03">EMAIL cdl@cdledu.rog</a></li>
+				</ul>
+			</div>
+		</footer>
+		<!-- // footer -->
+	</div>
+</body>
+</html>

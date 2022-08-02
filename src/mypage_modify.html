@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	@@include('./include/head.html')
+</head>
+<body class="front_body">
+	<div class="page_wrap mypage"><!-- 메뉴 디자인 식별 mypage -->
+		@@include('./include/header2.html')
+		<!-- midsection -->
+		<section class="midsection_z">
+			<div class="mstit_w">
+				<h2 class="mstit">마이페이지</h2>
+				<p class="mstit_sub">마이페이지에서 정보 수정, DQ 검증 및 내역, 추천 강좌, 자격증 등의 정보를 보실 수 있습니다.</p>
+			</div>
+			<div class="msboth_tb_w">
+				<div class="msboth_tb">
+					<div class="msboth_td msb01">
+						<ul class="msmenu_list">
+							<li class="active"><a href="javascript:;" class="msmenu"><span class="msmenu_in">정보 수정</span></a></li>
+							<li><a href="javascript:;" class="msmenu"><span class="msmenu_in">DQ 검증 내역 및 결과</span></a></li>
+							<li>
+								<a href="javascript:;" class="msmenu"><span class="msmenu_in">추천 강좌</span></a>
+								<ul class="msmenutwo_list">
+									<li><a href="javascript:;" class="msmenutwo"><span class="msmenutwo_in">추천 강좌</span></a></li>
+									<li><a href="javascript:;" class="msmenutwo"><span class="msmenutwo_in">재생 목록</span></a></li>
+								</ul>
+							</li>
+							<li><a href="javascript:;" class="msmenu"><span class="msmenu_in">자격증</span></a></li>
+							<li><a href="javascript:;" class="msmenu"><span class="msmenu_in">회원 탈퇴</span></a></li>
+						</ul>
+						<!-- mobile -->
+						<div class="mbmsmenu_list_w">
+							<ul class="mbmsmenu_list">
+								<li class="active"><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">정보 수정</span></a></li>
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">DQ 검증 내역 및 결과</span></a></li>
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">추천 강좌</span></a></li>
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">자격증</span></a></li>
+								<li><a href="javascript:;" class="mbmsmenu"><span class="mbmsmenu_in">회원 탈퇴</span></a></li>
+							</ul>
+						</div>
+						<!-- // mobile -->
+					</div>
+					<div class="msboth_td msb02">
+						<div class="msbin_tit_w"><h3 class="msbin_tit">개인 정보 수정</h3></div>
+						<div class="msbin_cont">
+							<!-- 내용이 들어갑니다. -->
+							<div class="msform_w type2">
+								<div class="msform_iw">
+									<!-- msform_low -->
+									<div class="msform_low">
+										<div class="msform_td msfth">
+											<div class="maflab_tb">
+												<div class="msflab_td"><span class="msflab">이름</span></div>
+												<div class="msflab_td"><span class="msflab_sub">(변경 불가)</span></div>
+											</div>
+										</div>
+										<div class="msform_td msftd">
+											<input type="text" class="fint" value="홍길동" />
+										</div>
+									</div>
+									<!-- // msform_low -->
+									<!-- msform_low -->
+									<div class="msform_low">
+										<div class="msform_td msfth">
+											<span class="msflab imp">생년월일</span>
+										</div>
+										<div class="msform_td msftd">
+											<ul class="fitem_list type2">
+												<li><select class="fsel"><option>1990년</option><option>1990년</option></select></li>
+												<li><select class="fsel"><option>11월</option></select></li>
+												<li><select class="fsel"><option>22일</option></select></li>
+											</ul>
+										</div>
+									</div>
+									<!-- // msform_low -->
+									<!-- msform_low -->
+									<div class="msform_low type2">
+										<div class="msform_td msfth">
+											<span class="msflab imp">성별</span>
+										</div>
+										<div class="msform_td msftd">
+											<ul class="rdchkitem_list">
+												<li>
+													<div class="rdchkitem">
+														<input type="radio" class="rdchk" name="gender" id="gender01" checked>
+														<label for="gender01" class="rdchk_lab">남</label>
+													</div>
+												</li>
+												<li>
+													<div class="rdchkitem">
+														<input type="radio" class="rdchk" name="gender" id="gender02">
+														<label for="gender02" class="rdchk_lab">여</label>
+													</div>
+												</li>
+												<li>
+													<div class="rdchkitem">
+														<input type="radio" class="rdchk" name="gender" id="gender03">
+														<label for="gender03" class="rdchk_lab">기타</label>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<!-- // msform_low -->
+									<!-- msform_low -->
+									<div class="msform_low">
+										<div class="msform_td msfth">
+											<div class="maflab_tb">
+												<div class="msflab_td"><span class="msflab">아이디</span></div>
+												<div class="msflab_td"><span class="msflab_sub">(변경 불가)</span></div>
+											</div>
+										</div>
+										<div class="msform_td msftd">
+											<input type="text" class="fint" value="dqid12345" />
+											<div class="msf_intment">6~12자의 영문 소문자/숫자, 한글입력불가</div>
+										</div>
+									</div>
+									<!-- // msform_low -->
+									<!-- msform_low -->
+									<div class="msform_low">
+										<div class="msform_td msfth">
+											<span class="msflab imp">비밀번호</span>
+										</div>
+										<div class="msform_td msftd">
+											<input type="password" class="fint" value="00000" />
+											<div class="msf_intment">8~12자의 영문 대소문자/숫자/특수문자, 한글입력불가</div>
+										</div>
+									</div>
+									<!-- // msform_low -->
+									<!-- msform_low -->
+									<div class="msform_low">
+										<div class="msform_td msfth">
+											<span class="msflab imp">비밀번호 확인</span>
+										</div>
+										<div class="msform_td msftd">
+											<input type="password" class="fint" value="00000" />
+										</div>
+									</div>
+									<!-- // msform_low -->
+									<!-- msform_low -->
+									<div class="msform_low">
+										<div class="msform_td msfth">
+											<span class="msflab imp">휴대폰 번호</span>
+										</div>
+										<div class="msform_td msftd">
+											<ul class="fitem_list resitem">
+												<li class="flong_wid"><select class="fsel"><option>통신사</option></select></li>
+												<li class="else_li"><span class="fit_else"></span></li>
+												<li><input type="text" class="fint resitem" value="010"></li>
+												<li class="else_li"><span class="fit_else">-</span></li>
+												<li><input type="text" class="fint resitem" value="1111"></li>
+												<li class="else_li"><span class="fit_else">-</span></li>
+												<li><input type="text" class="fint resitem" value="1111"></li>
+											</ul>
+										</div>
+									</div>
+									<!-- // msform_low -->
+									<!-- msform_low -->
+									<div class="msform_low">
+										<div class="msform_td msfth">
+											<span class="msflab imp">이메일</span>
+										</div>
+										<div class="msform_td msftd">
+											<input type="text" class="fint" value="dqid12345@gmail.com" />
+										</div>
+									</div>
+									<!-- // msform_low -->
+									<!-- msform_low -->
+									<div class="msform_low">
+										<div class="msform_td msfth">
+											<span class="msflab imp">주소</span>
+										</div>
+										<div class="msform_td msftd">
+											<input type="text" class="fint" value="경기도 일산동구 정발산동818" />
+											<div class="msf_intment">동이하는 생략</div>
+										</div>
+									</div>
+									<!-- // msform_low -->
+									<!-- msform_low -->
+									<div class="msform_low">
+										<div class="msform_td msfth">
+											<span class="msflab imp">직업</span>
+										</div>
+										<div class="msform_td msftd">
+											<div class="fitem_list_w">
+												<ul class="fitem_list type2 resitem" data-pcw="364" style="width:364px;">
+													<li><select class="fsel"><option>1차 분류</option></select></li>
+													<li><select class="fsel"><option>2차 분류</option></select></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<!-- // msform_low -->
+									<!-- msform_low -->
+									<div class="msform_low type2">
+										<div class="msform_td msfth">
+											<span class="msflab imp">문자수신여부</span>
+										</div>
+										<div class="msform_td msftd">
+											<div class="rdchkitem_list_w">
+												<ul class="rdchkitem_list">
+													<li>
+														<div class="rdchkitem">
+															<input type="radio" class="rdchk" name="message" id="message01" checked>
+															<label for="message01" class="rdchk_lab">예</label>
+														</div>
+													</li>
+													<li>
+														<div class="rdchkitem">
+															<input type="radio" class="rdchk" name="message" id="message02">
+															<label for="message02" class="rdchk_lab">아니오</label>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<!-- // msform_low -->
+								</div>
+							</div>
+							
+							<div class="snslinkage_z">
+								<p class="snslg_ment">페이스북, 구글, 네이버, 카카오톡에 가입되어 있는 정보를 통해 서비스를 이용하실 수 있습니다.</p>
+								<table class="snslg_tb">
+									<thead>
+										<tr>
+											<th class="has_sbtn"><span class="snslg_sp">구분</span></th>
+											<th class="has_sbtn"></th>
+											<th><span class="snslg_sp">간편 로그인 연동 정보</span></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="has_sbtn"><a href="#" class="snscir snscir01"><span class="hdtext">Facebook</span></a></td>
+											<td class="has_sbtn"><div class="snslg_cirtext_w"><input type="checkbox" class="snscir_chk" checked id="snscir01"><label for="snscir01" class="snslg_cirtext"><div class="snslg_text_in">연동<br>하기</div></label></div></td>
+											<td><p class="snslg_para">2020년 05월 27일 15시 34분 연동완료</p></td>
+										</tr>
+										<tr>
+											<td class="has_sbtn"><a href="#" class="snscir snscir02"><span class="hdtext">Google</span></a></td>
+											<td class="has_sbtn"><div class="snslg_cirtext_w"><input type="checkbox" class="snscir_chk" checked id="snscir02"><label for="snscir02" class="snslg_cirtext"><div class="snslg_text_in">연동<br>하기</div></label></div></td>
+											<td><p class="snslg_para">2020년 05월 27일 15시 34분 연동완료</p></td>
+										</tr>
+										<tr>
+											<td class="has_sbtn"><a href="#" class="snscir snscir03"><span class="hdtext">Naver</span></a></td>
+											<td class="has_sbtn"><div class="snslg_cirtext_w"><input type="checkbox" class="snscir_chk" id="snscir03"><label for="snscir03" class="snslg_cirtext"><div class="snslg_text_in">연동<br>하기</div></label></div></td>
+											<td><p class="snslg_para">간편 로그인 연동 정보가 없습니다.</p></td>
+										</tr>
+										<tr>
+											<td class="has_sbtn"><a href="#" class="snscir snscir04"><span class="hdtext">Kakaotalk</span></a></td>
+											<td class="has_sbtn"><div class="snslg_cirtext_w"><input type="checkbox" class="snscir_chk" id="snscir04"><label for="snscir04" class="snslg_cirtext"><div class="snslg_text_in">연동<br>하기</div></label></div></td>
+											<td><p class="snslg_para">간편 로그인 연동 정보가 없습니다.</p></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							
+							<div class="btn_mscsm_tb_w">
+								<div class="btn_mscsm_tb">
+									<a href="#" class="btn_mscsm type2"><span class="mscsm_in">완료</span></a>
+									<a href="#" class="btn_mscsm"><span class="mscsm_in">취소</span></a>
+								</div>
+							</div>
+							<!-- // 내용이 들어갑니다. -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- // midsection -->
+		<script>
+			DQ.horMenuIscInit();
+		</script>
+		@@include('./include/footer.html')
+	</div>
+</body>
+</html>

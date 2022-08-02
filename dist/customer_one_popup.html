@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="./css/reset.css" rel="stylesheet">
+	<link href="./css/layout.css" rel="stylesheet">
+	<link href="./css/swiper.min.css" rel="stylesheet">
+	<link href="./css/contents.css" rel="stylesheet">
+	<script src="./js/jquery-1.12.4.min.js"></script>
+	<script src="./js/hoverIntent.js"></script>
+	<script src="./js/fontfaceonload.js"></script>
+	<script src="./js/swiper.min.js"></script>
+	<script src="./js/iscroll.js"></script>
+	<script src="./js/front.js"></script>
+	<title></title>
+	<title></title>
+</head>
+<body class="front_body">
+	<div class="page_wrap">
+		<div class="guide_btn_w">
+			<a href="#" class="guide_btn" onclick="DQ.dimLayerShow({ 'target' : '#dlayer01' });">레이어팝업 호출</a>
+		</div>
+	</div>
+	<script>DQ.dimLayerShow({ 'target' : '#dlayer01' });</script>
+	<!-- dlayer_z -->
+	<div class="dlayer_z" id="dlayer01">
+		<div class="dlayer_tb">
+			<div class="dlayer_td">
+				<!-- dlayer_box -->
+				<div class="dlayer_box">
+					<div class="dlayer_ment_w">
+						<p class="dlayer_ment"><span class="cus_sqsym">1:1 문의</span>가 정상적으로 <span class="cus_sqsym">접수</span> 되었습니다.</p>
+					</div>
+					<div class="btn_dlayersm_w">
+						<a href="#" class="btn_dlayersm closetrigger"><span class="dlayersm_in">확인</span></a>
+					</div>
+					<a href="#" class="btn_dlayerclose"><span class="hdtext">닫기</span></a>
+				</div>
+				<!-- // dlayer_box -->
+			</div>
+		</div>
+	</div>
+	<!-- // dlayer_z -->
+</body>
+</html>

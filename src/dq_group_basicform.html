@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	@@include('./include/head.html')
+</head>
+<body class="front_body">
+	<div class="page_wrap dq"><!-- 메뉴 디자인 식별 dq -->
+		@@include('./include/header.html')
+		<!-- midsection -->
+		<section class="midsection_z">
+			<div class="mstit_w">
+				<h2 class="mstit">기본 정보 입력 (*는 필수)</h2>
+				<p class="mstit_sub">연령, 성별, 지역별, 직업별 나의 평균 점수를 확인 하기 위해 응시자의 정보를 입력해 주세요.<br>입력하신 개인정보는 회원님의 동의없이 공개되지 않으며, 개인정보취급방침에 따라 보호되고 있습니다.</p>
+			</div>
+			<div class="msbox_w">
+				<div class="msbox">
+					<div class="msform_w">
+						<div class="msform_iw">
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">생년월일</span>
+								</div>
+								<div class="msform_td msftd">
+									<div class="msin_list_w">
+										<ul class="msin_list">
+											<li><select class="fsel"><option>1990년</option><option>1990년</option></select></li>
+											<li><select class="fsel"><option>11월</option></select></li>
+											<li><select class="fsel"><option>22일</option></select></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low type2">
+								<div class="msform_td msfth">
+									<span class="msflab imp">성별</span>
+								</div>
+								<div class="msform_td msftd">
+									<ul class="rdchkitem_list">
+										<li>
+											<div class="rdchkitem">
+												<input type="radio" class="rdchk" name="gender" id="gender01">
+												<label for="gender01" class="rdchk_lab">남</label>
+											</div>
+										</li>
+										<li>
+											<div class="rdchkitem">
+												<input type="radio" class="rdchk" name="gender" id="gender02">
+												<label for="gender02" class="rdchk_lab">여</label>
+											</div>
+										</li>
+										<li>
+											<div class="rdchkitem">
+												<input type="radio" class="rdchk" name="gender" id="gender03">
+												<label for="gender03" class="rdchk_lab">기타</label>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">지역</span>
+								</div>
+								<div class="msform_td msftd">
+									<div class="msin_list_w">
+										<ul class="msin_list">
+											<li><select class="fsel"><option>1차 분류</option></select></li>
+											<li><select class="fsel"><option>2차 분류</option></select></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- // msform_low -->
+							<!-- msform_low -->
+							<div class="msform_low">
+								<div class="msform_td msfth">
+									<span class="msflab imp">직업</span>
+								</div>
+								<div class="msform_td msftd">
+									<div class="msin_list_w">
+										<ul class="msin_list">
+											<li><select class="fsel"><option>1차 분류</option></select></li>
+											<li><select class="fsel"><option>2차 분류</option></select></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- // msform_low -->
+						</div>
+						<div class="btn_mscsm_only_w">
+							<a href="#" class="btn_mscsm_only type2"><span class="btn_mscsm_only_in">확인</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- // midsection -->
+		<script>
+			DQ.mobileTotalRock("#pht02");
+		</script>
+		@@include('./include/footer.html')
+	</div>
+</body>
+</html>
